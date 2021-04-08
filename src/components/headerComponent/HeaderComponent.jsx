@@ -4,7 +4,12 @@ import Nav from "react-bootstrap/Nav";
 import "./headerComponentStyle.scss";
 
 export const HeaderComponent = () => (
-  <Navbar bg="dark" variant="dark" sticky="top">
+  <Navbar
+    bg="dark"
+    variant="dark"
+    sticky="top"
+    style={{ marginBottom: "10px" }}
+  >
     <Navbar.Brand href="#home">Wild Boys</Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav"></Navbar.Collapse>
