@@ -9,9 +9,9 @@ export const FooterComponent = () => (
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav"></Navbar.Collapse>
     <Nav className="mr-auto">
-      {/* <Nav.Link href="#home">Home</Nav.Link>
-      <Nav.Link href="#Events">Events</Nav.Link>
-      <Nav.Link href="#Location">Contests</Nav.Link> */}
+      {/* <Nav.Link href="#home">Home</Nav.Link> */}
+      {/* <Nav.Link href="#Events">Events</Nav.Link> */}
+      <Nav.Link href="#Location">Contact Me</Nav.Link>
     </Nav>
   </Navbar>
 );
