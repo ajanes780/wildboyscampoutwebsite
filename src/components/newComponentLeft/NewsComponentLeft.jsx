@@ -7,7 +7,7 @@ export const NewsComponentLeft = () => (
     <img className="news-image-left" src={fistBump} alt="logo" />
 
     <div className="write-up-left">
-      <h1 className="about-us"> Who are the Wild Boys </h1>
+      <h1 className="about-us"> Who Are The Wild Boys </h1>
       <span>
         <br />
         We host some of the best motorcycle rides and campouts in Alberta. We
