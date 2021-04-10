@@ -14,7 +14,7 @@ export const HeaderComponent = () => (
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav"></Navbar.Collapse>
     <Nav className="mr-auto">
-      <Nav.Link href="#Location">Sign up for the Newsletter</Nav.Link>
+      <Nav.Link href="#Location">Newsletter</Nav.Link>
     </Nav>
   </Navbar>
 );
