@@ -17,6 +17,6 @@ export const NewsComponent = () => (
       </span>
     </div>
 
-    <img className="news-image-top" src={fistBump} alt="logo" />
+    <img className="news-image-top" src={wildboys} alt="logo" />
   </div>
 );

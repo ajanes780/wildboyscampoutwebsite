@@ -10,13 +10,11 @@ export const HeaderComponent = () => (
     sticky="top"
     style={{ marginBottom: "10px" }}
   >
-    <Navbar.Brand href="#home">Wild Boys</Navbar.Brand>
+    <Navbar.Brand href="#home">The Wild Boys Campout </Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav"></Navbar.Collapse>
     <Nav className="mr-auto">
-      <Nav.Link href="#home">Home</Nav.Link>
-      <Nav.Link href="#Events">Events</Nav.Link>
-      <Nav.Link href="#Location">Contests</Nav.Link>
+      <Nav.Link href="#Location">Sign up for the Newsletter</Nav.Link>
     </Nav>
   </Navbar>
 );
