@@ -20,14 +20,16 @@
 
 .news-image-left {
   flex-direction: column;
-  width: 40vw;
+  width: 40%;
   // height: 100%;
+  margin: 10px 0px;
 }
 
 @media (max-width: 768px) {
   .news-component-left {
     display: flex;
     flex-wrap: wrap-reverse;
+    justify-content: center;
     // justify-content: space-between;
     // height: 50px;
     margin: 5px 0px;
