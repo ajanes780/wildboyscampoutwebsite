@@ -5,6 +5,10 @@ import "./heroComponentStyle.scss";
 
 export const HeroComponent = () => (
   <div className="hero-container">
-    <img src={logo} alt="logo" style={{ width: "95%", height: "90%" }} />
+    <img
+      src={logo}
+      alt="logo"
+      style={{ width: "95%", height: "90%", marginLeft: "50px" }}
+    />
   </div>
 );
