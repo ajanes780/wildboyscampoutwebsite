@@ -1,6 +1,7 @@
 import React from "react";
 import "./newsComponentStyle.scss";
 import wildboys from "../../assets/wildboyscamp.png";
+import fistBump from "../../assets/fistbump.jpeg";
 
 export const NewsComponent = () => (
   <div className="news-component-top">
@@ -16,6 +17,6 @@ export const NewsComponent = () => (
       </span>
     </div>
 
-    <img className="news-image-top" src={wildboys} alt="logo" />
+    <img className="news-image-top" src={fistBump} alt="logo" />
   </div>
 );
