@@ -1,0 +1,21 @@
+.wrapper {
+  background-color: lightgray;
+  height: 250px;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  & form {
+    padding: 25px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  h3 {
+    font-size: 22px;
+  }
+}
