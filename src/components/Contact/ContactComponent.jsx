@@ -10,7 +10,7 @@ export const ContactComponent = () => {
     name: "",
     email: "",
     tel: "",
-    message: "",
+    text: "",
   });
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
@@ -19,13 +19,13 @@ export const ContactComponent = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const newDate = new Date();
-    db.collection("messages")
+    db.collection("mail")
       .add({
-        name: state.name,
-        email: state.email,
-        tel: state.tel,
-        message: state.message,
-        date: newDate,
+        to: "aaron.janes@gmail.com",
+        message: {
+          subject: "Customer Contact Important",
+          text: `New Email from ${state.name} \n Sent on ${newDate}\n Phone Number ${state.tel} \n Email ${state.email}\n\n ${state.message} `,
+        },
       })
       .then((docRef) => {
         console.log("Document written with ID: ", docRef.id);
