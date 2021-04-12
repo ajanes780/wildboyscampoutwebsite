@@ -44,7 +44,6 @@ export const NewsletterComponent = (e) => {
           <InputGroup.Prepend>
             <Form.Control
               type="email"
-              className="mb-3"
               placeholder="Enter your email"
               name="email"
               onChange={handleChange}
@@ -53,7 +52,6 @@ export const NewsletterComponent = (e) => {
             />
             <Button
               as={InputGroup.Prepend}
-              className="mb-3"
               variant="warning"
               type="submit"
               id="mybtn"
