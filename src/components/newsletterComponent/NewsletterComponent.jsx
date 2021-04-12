@@ -41,7 +41,7 @@ export const NewsletterComponent = (e) => {
       <Form onSubmit={handleSubmit}>
         <Form.Group controlId="formBasicEmail">
           <Form.Label>Email address</Form.Label>
-          <InputGroup>
+          <InputGroup.Prepend>
             <Form.Control
               type="email"
               className="mb-3"
@@ -60,7 +60,7 @@ export const NewsletterComponent = (e) => {
             >
               Submit
             </Button>
-          </InputGroup>
+          </InputGroup.Prepend>
           <Form.Text className="text-muted">
             We will never share your email with anyone else
           </Form.Text>
