@@ -50,12 +50,7 @@ export const NewsletterComponent = (e) => {
               label="email"
               required
             />
-            <Button
-              as={InputGroup.Prepend}
-              variant="warning"
-              type="submit"
-              id="mybtn"
-            >
+            <Button as={InputGroup.Prepend} variant="warning" type="submit">
               Submit
             </Button>
           </InputGroup.Prepend>
