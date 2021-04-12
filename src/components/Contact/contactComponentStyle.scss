@@ -1,0 +1,14 @@
+.wrapper-form {
+  display: flex;
+  margin: 25px 0px;
+  background-color: lightgrey;
+  & form {
+    margin: 10px 0px;
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+h1 {
+  text-align: center;
+}
