@@ -21,10 +21,10 @@ export const ContactComponent = () => {
     const newDate = new Date();
     db.collection("mail")
       .add({
-        to: "aaron.janes@gmail.com",
+        to: "zacsullivanyt@gmail.com",
         message: {
-          subject: "Customer Contact Important",
-          text: `New Email from ${state.name} \n Sent on ${newDate}\n Phone Number ${state.tel} \n Email ${state.email}\n\n ${state.message} `,
+          subject: "There was an inquiry on your website ",
+          text: `New Email from ${state.name} \n Phone Number ${state.tel} \n Email ${state.email}\n\n ${state.message}\n Sent on ${newDate} `,
         },
       })
       .then((docRef) => {
