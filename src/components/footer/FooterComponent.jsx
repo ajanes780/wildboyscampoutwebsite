@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
+import { Link } from "react-router-dom";
 import "./footerComponentStyle.scss";
 
 export const FooterComponent = () => (
@@ -11,7 +12,9 @@ export const FooterComponent = () => (
     <Nav className="mr-auto">
       {/* <Nav.Link href="#home">Home</Nav.Link> */}
       {/* <Nav.Link href="#Events">Events</Nav.Link> */}
-      <Nav.Link href="#Location">Contact Me</Nav.Link>
+      <Nav.Link as={Link} to="/contactme">
+        Contact
+      </Nav.Link>
     </Nav>
   </Navbar>
 );
