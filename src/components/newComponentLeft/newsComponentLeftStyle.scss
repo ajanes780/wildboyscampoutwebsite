@@ -60,11 +60,38 @@
   }
 }
 
-// @media (max-height: 350px) {
-//   .news-image-left {
-//     display: flex;
-//     width: 40%;
-//     max-height: 50%;
-//     // margin-bottom: 10px;
-//   }
-// }
+@media (max-height: 350px) {
+  .news-component-left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    // justify-content: space-between;
+    height: 95%;
+    margin: 5px 0px;
+
+    .write-up-left {
+      display: flex;
+      // height: 400px;
+      width: 100%;
+      margin-top: 25px;
+
+      & h1 {
+        text-align: center;
+      }
+
+      & span {
+        width: 100%;
+        text-align: left;
+      }
+    }
+
+    .news-image-left {
+      order: 5;
+      display: flex;
+      width: 100%;
+      max-height: 95%;
+      // margin-bottom: 10px;
+    }
+  }
+}
