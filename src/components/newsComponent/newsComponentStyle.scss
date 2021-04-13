@@ -73,7 +73,6 @@
   }
   .news-image-top {
     width: 40%;
-
     clip-path: polygon(
       0% 0%,
       100% 0%,
@@ -85,6 +84,20 @@
     );
     // height: 95%;
     margin: 10px 0px;
+  }
+
+  .shadow {
+    width: 40%;
+    margin: 10px 0px;
+    clip-path: polygon(
+      0% 0%,
+      100% 0%,
+      100% 75%,
+      75% 75%,
+      75% 100%,
+      50% 75%,
+      0% 75%
+    );
   }
 }
 

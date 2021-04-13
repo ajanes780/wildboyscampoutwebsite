@@ -27,7 +27,7 @@
 @media (max-width: 768px) {
   .news-component-left {
     display: flex;
-    flex: 1 1 auto;
+    flex-direction: column;
     flex-wrap: wrap-reverse;
     justify-content: center;
     // justify-content: space-between;
@@ -51,7 +51,7 @@
     }
 
     .news-image-left {
-      flex: 1 1 auto;
+      order: 5;
       display: flex;
       width: 100%;
       max-height: 95%;
