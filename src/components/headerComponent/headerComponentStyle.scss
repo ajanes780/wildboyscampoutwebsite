@@ -1,1 +1,90 @@
 @import "~bootstrap/scss/bootstrap";
+
+:root {
+  --primary-color: #ffc107;
+  --secondary-color: #1b206e;
+}
+
+/* TOGGLE */
+.toggle {
+  // position: fixed;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+
+  background: var(--primary-color) url(../../assets/menu.png);
+  background-size: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 20;
+  cursor: pointer;
+}
+
+.toggle.active {
+  background: var(--primary-color) url(../../assets/close.png);
+  background-size: 25px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* NAVIGATION */
+.navigation {
+  position: fixed;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  z-index: 15;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation.active {
+  left: 0;
+}
+
+.navigation ul {
+  position: relative;
+}
+
+.navigation ul li {
+  position: relative;
+  list-style: none;
+  text-align: center;
+}
+
+.navigation ul li a {
+  font-size: 2.2rem;
+  color: #111;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.navigation ul li a:hover {
+  color: var(--primary-color);
+}
+
+.navigation .social-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation .social-bar a {
+  display: inline-block;
+  transform: scale(0.5);
+}
+
+.navigation .email-icon {
+  position: absolute;
+  bottom: 20px;
+  transform: scale(0.5);
+}

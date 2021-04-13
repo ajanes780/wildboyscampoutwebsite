@@ -11,8 +11,7 @@ export const NewsComponentLeft = () => (
       <span>
         <br />
         The Wild Boys Camp-out, established in 2020 by a bunch of blue collar,
-        beer-drinking, eagle-riding motorcycle hooligans. We host some of the
-        best motorcycle rides and camp-outs in Alberta. We began by
+        beer-drinking, eagle-riding motorcycle hooligans. We began by
         spontaneously putting together a casual last minute camp-outs that more
         than 100 people attended. When this began we never had the intentions to
         make it an annual event but because of how memorable the camp-out turned
