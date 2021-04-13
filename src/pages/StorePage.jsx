@@ -8,7 +8,7 @@ export const StorePage = () => {
   return (
     <>
       <HeroComponent />
-
+      <h1>Coming Soon</h1>
       <div className="wrapper-store">
         <Card style={{ width: "18rem", margin: "10px" }}>
           <Card.Img variant="top" src={logo} Style={{ Height: "100px" }} />

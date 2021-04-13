@@ -68,8 +68,8 @@ export const HeaderComponent = () => {
                 </a>
               </li>
             </ul>
-            <a href="mailto:you@email.com" class="email-icon">
-              <img src={email} alt="" />
+            <a href="mailto:you@email.com" className="email-icon">
+              <img src={email} alt="" className="email-icon" />
             </a>
           </div>
         </div>

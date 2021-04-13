@@ -6,7 +6,9 @@ import "./footerComponentStyle.scss";
 
 export const FooterComponent = () => (
   <Navbar bg="dark" variant="dark" sticky="bottom">
-    <Navbar.Brand href="#home">The Wild Boys Campout </Navbar.Brand>
+    <Navbar.Brand as={Link} to="./">
+      The Wild Boys Campout{" "}
+    </Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav"></Navbar.Collapse>
     <Nav className="mr-auto">
