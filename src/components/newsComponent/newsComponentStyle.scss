@@ -128,3 +128,31 @@
     }
   }
 }
+
+@media (max-height: 450px) {
+  .news-component-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    // justify-content: space-between;
+    // height: 50vh;
+    // margin: 100px 0px;
+
+    .write-up {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 10px;
+      width: 95%;
+      & h1,
+      span {
+        text-align: center;
+      }
+    }
+
+    .news-image-top {
+      width: 100%;
+      // height: 95%;
+      // margin: 50px 0px;
+    }
+  }
+}
