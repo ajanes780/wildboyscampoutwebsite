@@ -8,3 +8,11 @@
   padding: 30px;
   background-color: lightgrey;
 }
+
+#store-card {
+  box-shadow: 1px 15px 20px rgb(134, 129, 129);
+}
+
+#store-card:hover {
+  box-shadow: none;
+}
