@@ -21,25 +21,24 @@ export const NewsComponentLeft = () => (
         and good people. No fancy shit! Just pitch a tent, grab a beer and enjoy
         your time with some cool, like-minded people. We are dedicated to
         supporting our community and bringing everyone together through these
-        events. Our culture of inclusiveness, loyalty, respect, and the open
-        road is something we cherish and invite you to be part of. We host one
-        big camp-out every summer for two nights and I am sure you won't want to
-        miss this event. Currently Wild Boys July 2, 2021 is on the go! Location
-        is set, the logistics are complete, the bands are booked, but due to the
-        current government restrictions on outdoor gatherings, ticket sales have
-        been put on hold. Stay up to date with our newsletter and on our social
-        media platforms. In addition to the main event each year, we host two
-        shotgun camp-outs as well. These are a spur of moment, one night
-        spontaneous event where we meet up at a location and ride out to a spot
-        to kick it for a night (don’t worry, we will make sure you know when!).
-        Our goal is to keep The Wild Boy's Camp Outs true to the old school vibe
-        with being focused mostly on riding and a real down-to-earth camp-out
-        experience. No pretentiousness, nothing fancy, grab your friends, as
-        everyone is invited and included. Come on out and set up your spot and
-        get to know people, make new friends and have some laughs. Get away from
-        the city, get some wind in your face and enjoy the thing we all love.
-        The Wild Boys Camp Out welcomes anyone and everyone we just ask that you
-        respect one another, the environment and your surroundings.
+        events. We host one big camp-out every summer for two nights and I am
+        sure you won't want to miss this event. Currently Wild Boys July 2, 2021
+        is on the go! Location is set, the logistics are complete, the bands are
+        booked, but due to the current government restrictions on outdoor
+        gatherings, ticket sales have been put on hold. Stay up to date with our
+        newsletter and on our social media platforms. In addition to the main
+        event each year, we host two shotgun camp-outs as well. These are a spur
+        of moment, one night spontaneous event where we meet up at a location
+        and ride out to a spot to kick it for a night (don’t worry, we will make
+        sure you know when!). Our goal is to keep The Wild Boy's Camp Outs true
+        to the old school vibe with being focused mostly on riding and a real
+        down-to-earth camp-out experience. No pretentiousness, nothing fancy,
+        grab your friends, as everyone is invited and included. Come on out and
+        set up your spot and get to know people, make new friends and have some
+        laughs. Get away from the city, get some wind in your face and enjoy the
+        thing we all love. The Wild Boys Camp Out welcomes anyone and everyone
+        we just ask that you respect one another, the environment and your
+        surroundings.
         <br />{" "}
         <em>
           Stay safe, stay wild. <br />
