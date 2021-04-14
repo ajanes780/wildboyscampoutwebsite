@@ -6,7 +6,7 @@ export const ModalComponent = ({ onClick, show, onHide }) => {
     <Modal show={show} onHide={onHide}>
       <Modal.Body>You will hear from us soon</Modal.Body>
       <Modal.Footer>
-        <Button variant="warning" onClick={onClick}>
+        <Button id="mybtn" variant="warning" onClick={onClick}>
           Close
         </Button>
       </Modal.Footer>
