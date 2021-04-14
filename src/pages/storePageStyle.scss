@@ -10,9 +10,14 @@
 }
 
 #store-card {
-  box-shadow: 1px 15px 20px rgb(134, 129, 129);
+  box-shadow: 1px 15px 20px rgba(134, 129, 129, 0.7);
+  border-radius: 15px;
 }
 
 #store-card:hover {
-  box-shadow: none;
+  box-shadow: 1px 5px 10px rgba(134, 129, 129, 0.9);
+}
+
+.card-img-top {
+  border-radius: 15px;
 }
