@@ -19,7 +19,7 @@
     letter-spacing: 0.2em;
   }
   .image {
-    width: 100%;
+    width: 30%;
     margin: 2em;
   }
   .contact {
@@ -31,6 +31,7 @@
   }
   .contact-info {
     display: flex;
+    justify-content: center;
 
     li {
       display: flex;
@@ -45,5 +46,8 @@
     font-size: 15px;
     padding: 20px;
     align-items: end;
+  }
+  .image {
+    width: 100%;
   }
 }
