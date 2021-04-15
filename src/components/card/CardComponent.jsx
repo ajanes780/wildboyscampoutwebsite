@@ -20,7 +20,7 @@ export const CardComponent = ({
         <Card.Title>{title}</Card.Title>
         <Card.Text>{bio}</Card.Text>
         <Button
-          onClick={() => history.push(`pathname:${linkUrl}`)}
+          onClick={() => history.push(linkUrl)}
           id="mybtn"
           variant="warning"
         >
