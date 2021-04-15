@@ -16,13 +16,11 @@ export const LifeSentenceCycles = () => {
       <img src={logo2} className="image" alt="" />
       <div className="contact">
         <h3>
-          &nbsp;
-          <br /> Edmonton Alberta fully certified Harley Davidson repair,
-          service and restoration. <br />
-          Journeyman motorcycle mechanics and auto Harley Davidson Specialists
-          <br />
-          1903- Current Models Service - Sales - Apparel Journeyman Mechanics
-          Journeyman Auto body Certified & Warrantied body.
+          &nbsp; Edmonton Alberta fully certified Harley Davidson repair,
+          service and restoration. Journeyman motorcycle mechanics and auto
+          Harley Davidson Specialists 1903- Current Models Service - Sales -
+          Apparel Journeyman Mechanics Journeyman Auto body Certified &
+          Warrantied body.
         </h3>
         <div className="contact-info">
           <ul>

@@ -31,7 +31,6 @@
   }
   .contact-info {
     display: flex;
-    justify-content: center;
 
     li {
       list-style-type: none;
@@ -40,4 +39,9 @@
 }
 
 @media (max-width: 768px) {
+  .wrapper-lsc {
+    font-size: 17px;
+    padding: 20px;
+    align-items: end;
+  }
 }
