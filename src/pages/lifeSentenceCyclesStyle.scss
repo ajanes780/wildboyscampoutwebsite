@@ -33,6 +33,7 @@
     display: flex;
 
     li {
+      display: flex;
       list-style-type: none;
     }
   }
@@ -40,7 +41,7 @@
 
 @media (max-width: 768px) {
   .wrapper-lsc {
-    font-size: 17px;
+    font-size: 15px;
     padding: 20px;
     align-items: end;
   }

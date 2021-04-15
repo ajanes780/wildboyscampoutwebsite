@@ -34,7 +34,7 @@ export const LifeSentenceCycles = () => {
             </li>
             <li>
               <Globe2 />
-              &nbsp; http://Lifesentencecycles.com/
+              &nbsp; http://Lifesentencecycles.com
             </li>
           </ul>
         </div>
