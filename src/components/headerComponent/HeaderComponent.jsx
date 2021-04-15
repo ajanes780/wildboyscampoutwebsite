@@ -45,6 +45,11 @@ export const HeaderComponent = () => {
               </Link>
             </li>
             <li>
+              <Link to="/friendsofTWBCO">
+                <h3 onClick={handleClick}>Friends</h3>
+              </Link>
+            </li>
+            <li>
               <Link to="/contactme">
                 <h3 onClick={handleClick}>Contact</h3>
               </Link>

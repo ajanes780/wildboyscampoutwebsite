@@ -7,7 +7,6 @@ import { NewsletterComponent } from "../components/newsletterComponent/Newslette
 export const HomePage = () => {
   return (
     <>
-      <HeroComponent />
       <NewsComponent />
       <NewsComponentLeft />
       <NewsletterComponent />

@@ -5,16 +5,21 @@ import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
 import { HomePage } from "./pages/HomePage";
 import { ContactComponent } from "./components/Contact/ContactComponent";
 import { StorePage } from "./pages/StorePage";
-
+import { FriendsOfTWBCO } from "./pages/FriendsOfTWBCO";
+import { HeroComponent } from "./components/hero/HeroComponent";
+import { LifeSentenceCycles } from "./pages/LifeSentenceCycles";
 function App() {
   return (
     <div className="App">
       <Router>
         <HeaderComponent />
+        <HeroComponent />
         <Switch>
           <Route exact path="/" component={HomePage} />
-          <Route exact path="/contactme" component={ContactComponent} />
-          <Route exact path="/store" component={StorePage} />
+          <Route path="/contactme" component={ContactComponent} />
+          <Route path="/store" component={StorePage} />
+          <Route path="/friendsofTWBCO" component={FriendsOfTWBCO} />
+          <Route path="/lifesentencecycles" component={LifeSentenceCycles} />
         </Switch>
         <FooterComponent />
       </Router>

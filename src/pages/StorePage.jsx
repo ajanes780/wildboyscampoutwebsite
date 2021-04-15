@@ -3,58 +3,35 @@ import { HeroComponent } from "../components/hero/HeroComponent";
 import { Button, Card } from "react-bootstrap";
 import logo from "../assets/logo.jpeg";
 import "./storePageStyle.scss";
+import { CardComponent } from "../components/card/CardComponent";
 
 export const StorePage = () => {
+  const message = `Some quick example text to build on the card title and make up the bulk
+  of the card's content`;
+  const title = `Title`;
+  const buttonMsg = `Buy Me`;
   return (
     <>
-      <HeroComponent />
       <h1>Coming Soon</h1>
       <div className="wrapper-store">
-        <Card
-          id="store-card"
-          style={{
-            width: "18rem",
-            margin: "10px",
-          }}
-        >
-          <Card.Img variant="top" src={logo} Style={{ Height: "100px" }} />
-          <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
-            <Button id="mybtn" variant="warning">
-              Buy Me
-            </Button>
-          </Card.Body>
-        </Card>
-        <Card id="store-card" style={{ width: "18rem", margin: "10px" }}>
-          <Card.Img variant="top" src={logo} Style={{ Height: "100px" }} />
-          <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
-            <Button id="mybtn" variant="warning">
-              Buy Me
-            </Button>
-          </Card.Body>
-        </Card>
-        <Card id="store-card" style={{ width: "18rem", margin: "10px" }}>
-          <Card.Img variant="top" src={logo} Style={{ Height: "100px" }} />
-          <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
-            <Button id="mybtn" variant="warning">
-              Buy Me
-            </Button>
-          </Card.Body>
-        </Card>
+        <CardComponent
+          image={logo}
+          buttonMsg={buttonMsg}
+          title={title}
+          bio={message}
+        />
+        <CardComponent
+          image={logo}
+          buttonMsg={buttonMsg}
+          title={title}
+          bio={message}
+        />
+        <CardComponent
+          image={logo}
+          buttonMsg={buttonMsg}
+          title={title}
+          bio={message}
+        />
       </div>
     </>
   );
