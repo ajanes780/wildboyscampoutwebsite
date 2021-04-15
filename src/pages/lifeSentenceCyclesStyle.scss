@@ -9,14 +9,17 @@
   padding: 30px;
   background-color: lightgrey;
 
+  #order1 {
+    order: 1;
+  }
+
   h3 {
     font-size: 20px;
     line-height: 1.8em;
     letter-spacing: 0.2em;
   }
-  img {
-    display: inline-block;
-    width: 35em;
+  .image {
+    width: 100%;
     margin: 2em;
   }
   .contact {
@@ -24,16 +27,17 @@
     flex-direction: column;
     justify-content: space-between;
     margin: 10px;
-    ul {
-      display: flex;
-      flex-direction: column;
+    margin-top: 25px;
+  }
+  .contact-info {
+    display: flex;
+    justify-content: center;
 
+    li {
       list-style-type: none;
-      margin-top: 25px;
-
-      li {
-        padding: 5px;
-      }
     }
   }
+}
+
+@media (max-width: 768px) {
 }
