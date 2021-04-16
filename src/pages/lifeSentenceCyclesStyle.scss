@@ -66,6 +66,12 @@
   }
 }
 
+a:link,
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
 li:hover {
   transform: translateY(-3px);
   color: red;
@@ -75,15 +81,9 @@ li:active {
   transform: translateY(-1px);
 }
 
-a:link,
-a:visited {
-  color: black;
-  text-decoration: none;
-}
-
 a:hover {
   transform: translateY(-153px);
-  color: white;
+  color: red;
   letter-spacing: 0.1em;
 }
 a:active {
