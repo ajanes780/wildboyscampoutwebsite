@@ -17,6 +17,11 @@
   }
 }
 
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 #store-card:hover {
   box-shadow: 1px 5px 10px rgba(134, 129, 129, 0.9);
 }

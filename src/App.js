@@ -9,6 +9,10 @@ import { FriendsOfTWBCO } from "./pages/FriendsOfTWBCO";
 import { HeroComponent } from "./components/hero/HeroComponent";
 import { LifeSentenceCycles } from "./pages/LifeSentenceCycles";
 import { ElNiven } from "./pages/elniven";
+import { ToothNNail } from "./pages/toothNnailPage";
+import { EvilEmpire } from "./pages/evilEmpire";
+import { Triple666 } from "./pages/triple666";
+
 function App() {
   return (
     <div className="App">
@@ -22,6 +26,9 @@ function App() {
           <Route path="/friendsofTWBCO" component={FriendsOfTWBCO} />
           <Route path="/lifesentencecycles" component={LifeSentenceCycles} />
           <Route path="/elniven" component={ElNiven} />
+          <Route path="/toothnnail" component={ToothNNail} />
+          <Route path="/666" component={Triple666} />
+          <Route path="/evil" component={EvilEmpire} />
         </Switch>
         <FooterComponent />
       </Router>

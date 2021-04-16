@@ -39,6 +39,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    border-bottom: 35px;
   }
   .contact-info {
     // display: flex;
@@ -47,8 +48,8 @@
     ul {
       // border: 1px solid lightgray;
       // background-color: #fff;
-      padding: 20px 0px;
-      margin-bottom: 0;
+      // padding: 20px 0px;
+      // margin-bottom: 15px;
       // border-radius: 20px;
       // box-shadow: -5px 15px 20px rgba(134, 129, 129, 0.7);
     }
@@ -56,8 +57,8 @@
       margin-left: 0;
     }
     li {
-      display: inline;
-      // align-items: baseline;
+      display: inline-flex;
+      align-items: baseline;
       list-style-type: none;
       margin: 0px 8px;
       margin-left: 2em;
@@ -102,10 +103,12 @@ iframe {
   width: 560px;
   height: 315px;
 }
+
 .icons-contact {
-  margin-bottom: 8px;
-  margin-right: 10px;
+  // margin-bottom: 8px;
+  // margin-right: 10px;
 }
+
 @media (max-width: 736px) {
   .wrapper-lsc {
     font-size: 15px;
@@ -119,12 +122,16 @@ iframe {
       display: flex;
       font-size: 22px;
       justify-content: end;
+      align-items: center;
+      margin: 0 !important;
     }
     .icons-contact {
       margin-bottom: 0;
     }
     li {
-      margin: 0 !important;
+      display: flex;
+      // align-items: center;
+      // margin: 0 !important;
     }
   }
 

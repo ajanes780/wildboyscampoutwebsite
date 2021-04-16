@@ -44,7 +44,6 @@ export const ContactComponent = () => {
   };
   return (
     <>
-      <HeroComponent />
       <h1> Want To Get In Touch ? </h1>
       <div className="wrapper-form">
         <Form onSubmit={handleSubmit}>

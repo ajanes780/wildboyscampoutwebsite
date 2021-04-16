@@ -1,5 +1,5 @@
 import React from "react";
-import "./lifeSentenceCyclesStyle.scss";
+import "./friendStyle.scss";
 import logo from "../assets/LSC2.png";
 import logo1 from "../assets/LSC5.png";
 import logo2 from "../assets/LSC4.png";
