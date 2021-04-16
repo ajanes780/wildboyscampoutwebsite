@@ -32,9 +32,10 @@
     margin-top: 30px;
     ul {
       border: 1px solid lightgray;
+      background-color: #fff;
       padding: 20px 0px;
       border-radius: 20px;
-      box-shadow: 1px 15px 20px rgba(134, 129, 129, 0.7);
+      box-shadow: -5px 15px 20px rgba(134, 129, 129, 0.7);
     }
     li:first-child {
       margin-left: 0;
@@ -56,6 +57,21 @@ li:hover {
 }
 
 li:active {
+  transform: translateY(-1px);
+}
+
+a:link,
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  transform: translateY(-3px);
+  color: red;
+  letter-spacing: 0.1em;
+}
+a:active {
   transform: translateY(-1px);
 }
 
