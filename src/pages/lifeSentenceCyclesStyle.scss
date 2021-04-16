@@ -18,10 +18,7 @@
     line-height: 1.8em;
     letter-spacing: 0.2em;
   }
-  .image {
-    width: 30%;
-    margin: 2em;
-  }
+
   .contact {
     display: flex;
     flex-direction: column;
@@ -32,22 +29,31 @@
   .contact-info {
     display: flex;
     justify-content: center;
+    margin-top: 30px;
 
     li {
       display: flex;
       align-items: center;
       list-style-type: none;
+      margin: 5px 0px;
     }
   }
 }
 
-@media (max-width: 768px) {
+.image {
+  width: 30%;
+  margin: 2em;
+  border-radius: 25px;
+}
+
+@media (max-width: 736px) {
   .wrapper-lsc {
     font-size: 15px;
     padding: 20px;
     align-items: end;
-  }
-  .image {
-    width: 100%;
+    .image {
+      width: 100%;
+      border-radius: 25px;
+    }
   }
 }
