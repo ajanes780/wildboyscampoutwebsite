@@ -32,10 +32,12 @@
     margin-top: 30px;
 
     li {
-      display: flex;
+      display: inline;
       align-items: center;
       list-style-type: none;
       margin: 5px 0px;
+      margin-left: 2em;
+      font-size: 20px;
     }
   }
 }
@@ -46,6 +48,10 @@
   border-radius: 25px;
 }
 
+iframe {
+  margin: 10px;
+}
+
 @media (max-width: 736px) {
   .wrapper-lsc {
     font-size: 15px;
@@ -54,6 +60,10 @@
     .image {
       width: 100%;
       border-radius: 25px;
+    }
+
+    .contact-info li {
+      display: flex;
     }
   }
 }

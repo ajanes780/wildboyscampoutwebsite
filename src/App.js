@@ -8,6 +8,7 @@ import { StorePage } from "./pages/StorePage";
 import { FriendsOfTWBCO } from "./pages/FriendsOfTWBCO";
 import { HeroComponent } from "./components/hero/HeroComponent";
 import { LifeSentenceCycles } from "./pages/LifeSentenceCycles";
+import { ElNiven } from "./pages/elniven";
 function App() {
   return (
     <div className="App">
@@ -20,6 +21,7 @@ function App() {
           <Route path="/store" component={StorePage} />
           <Route path="/friendsofTWBCO" component={FriendsOfTWBCO} />
           <Route path="/lifesentencecycles" component={LifeSentenceCycles} />
+          <Route path="/elniven" component={ElNiven} />
         </Switch>
         <FooterComponent />
       </Router>
