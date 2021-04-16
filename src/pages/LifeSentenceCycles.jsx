@@ -14,10 +14,10 @@ import {
 export const LifeSentenceCycles = () => {
   return (
     <div className="wrapper-lsc">
-      <img src={logo1} className="image" alt="" />
-      <img src={logo} className="image" alt="" />
       {/* <img src={logo2} className="image" alt="" /> */}
       <div className="contact">
+        {/* <img src={logo1} className="image" alt="" /> */}
+        <img src={logo} className="image" alt="" />
         <h3>
           &nbsp; Edmonton Alberta fully certified Harley Davidson repair,
           service and restoration. Journeyman motorcycle mechanics and auto

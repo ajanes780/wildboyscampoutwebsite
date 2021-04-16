@@ -16,27 +16,28 @@ import {
 export const ElNiven = () => {
   return (
     <div className="wrapper-lsc">
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/_VFEa3AUa_E"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/IxGFIz9WF30"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-
       <div className="contact">
+        <div className="media-wrapper">
+          <iframe
+            // width="560"
+            // height="315"
+            src="https://www.youtube.com/embed/_VFEa3AUa_E"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
+            // width="560"
+            // height="315"
+            src="https://www.youtube.com/embed/IxGFIz9WF30"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
         <h3>
           &nbsp; …With a natural bent for lyrics, Niven’s sound, infused with
           life-experience and the desolate landscapes that feed his imagination,

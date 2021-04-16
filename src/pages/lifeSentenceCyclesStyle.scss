@@ -8,6 +8,7 @@
   margin: 30px 0px;
   padding: 30px;
   background-color: lightgrey;
+  border-radius: 20px;
 
   #order1 {
     order: 1;
@@ -22,14 +23,22 @@
   .contact {
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: space-between;
     // margin: 10px;
     margin-top: 25px;
     border: 1px solid lightgray;
     background-color: #fff;
-    padding: 20px 10px;
+    padding: 20px;
     border-radius: 20px;
     box-shadow: -5px 15px 20px rgba(134, 129, 129, 0.7);
+  }
+
+  .media-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
   .contact-info {
     // display: flex;
@@ -74,7 +83,7 @@ a:visited {
 
 a:hover {
   transform: translateY(-153px);
-  color: red;
+  color: white;
   letter-spacing: 0.1em;
 }
 a:active {
@@ -90,6 +99,8 @@ a:active {
 iframe {
   margin: 10px;
   border-radius: 15px;
+  width: 560px;
+  height: 315px;
 }
 .icons-contact {
   margin-bottom: 8px;
@@ -98,7 +109,7 @@ iframe {
 @media (max-width: 736px) {
   .wrapper-lsc {
     font-size: 15px;
-    padding: 20px;
+    padding: 30px;
     align-items: end;
     .image {
       width: 100%;
@@ -112,8 +123,27 @@ iframe {
     .icons-contact {
       margin-bottom: 0;
     }
-    li:first-child {
-      margin-left: 45px !important;
+    li {
+      margin: 0 !important;
     }
+  }
+
+  .media-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    iframe {
+      margin: 10px;
+      border-radius: 15px;
+      width: 75vw;
+      height: 40vh;
+    }
+  }
+
+  body {
+    padding: 10px;
   }
 }
