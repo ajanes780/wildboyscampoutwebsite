@@ -59,31 +59,33 @@ export const ElNiven = () => {
         <div className="contact-info">
           <ul>
             <li>
-              <EnvelopeOpenFill />
+              <EnvelopeOpenFill className="icons-contact" />
               <a href="mailto:elnivenandthealibi@gmail.com"> &nbsp; Book Us</a>
             </li>
             <li>
-              <Globe2 style={{ color: "blue" }} />
+              <Globe2 className="icons-contact" />
               &nbsp;
-              <a href="http://www.elniven.com/contact ">&nbsp;elniven.com</a>
+              <a href="http://www.elniven.com/contact ">&nbsp;Elniven.com</a>
             </li>
             <li>
-              <MusicNote style={{ color: "yellow" }} />
+              <MusicNote className="icons-contact" />
               &nbsp;
               <a href="https://open.spotify.com/artist/6wlJOdjkVjweEwdb03zlLH?si=I0ClV098SGueQ6mDrG3zBg&nd=1 ">
                 &nbsp;El Niven On Spotify
               </a>
             </li>
             <li>
-              <Facebook style={{ color: "blue" }} />
+              <Facebook className="icons-contact" />
               &nbsp;
               <a href="https://www.facebook.com/elnivenandthealibi/ ">
-                &nbsp;@elnivenandthealibi
+                &nbsp;Elnivenandthealibi
               </a>
             </li>
             <li>
-              <Instagram style={{ color: "red" }} />
-              <a href="https://www.instagram.com/el_niven/">&nbsp;@el_niven</a>
+              <Instagram className="icons-contact" />
+              <a href="https://www.instagram.com/el_niven/">
+                &nbsp;&nbsp;El_niven
+              </a>
             </li>
           </ul>
         </div>

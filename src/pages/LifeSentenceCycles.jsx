@@ -4,8 +4,6 @@ import logo from "../assets/LSC2.png";
 import logo1 from "../assets/LSC5.png";
 import logo2 from "../assets/LSC4.png";
 
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
-
 import {
   EnvelopeOpenFill,
   Globe2,
@@ -31,24 +29,24 @@ export const LifeSentenceCycles = () => {
         <div className="contact-info">
           <ul>
             <li>
-              <Phone style={{ color: "white" }} />
+              <Phone className="icons-contact" />
               <a href="tel:+17804402351"> &nbsp; (780) 440-2351</a>
             </li>
             <li>
-              <EnvelopeOpenFill />
+              <EnvelopeOpenFill className="icons-contact" />
               <a href="mailto:lifesentencecycle@gmail.com"> &nbsp; Email Me</a>
             </li>
             <li>
-              <Globe2 style={{ color: "blue" }} />
+              <Globe2 className="icons-contact" />
               &nbsp;
               <a href="http://Lifesentencecycles.com ">
                 &nbsp;LifeSentenceCycles.com
               </a>
             </li>
             <li>
-              <Instagram style={{ color: "red" }} />
+              <Instagram className="icons-contact" />
               <a href="https://www.instagram.com/lifesentencecycles/">
-                &nbsp;@LifeSentenceCycles
+                &nbsp;LifeSentenceCycles
               </a>
             </li>
           </ul>
