@@ -5,7 +5,7 @@ import logo1 from "../assets/LSC5.png";
 import logo2 from "../assets/LSC4.png";
 
 import {
-  EnvelopeOpenFill,
+  EnvelopeOpen,
   Facebook,
   Globe2,
   Instagram,
@@ -59,32 +59,33 @@ export const ElNiven = () => {
 
         <div className="contact-info">
           <ul>
-            <li>
-              <EnvelopeOpenFill className="icons-contact" />
-              <a href="mailto:elnivenandthealibi@gmail.com"> &nbsp; Book Us</a>
+            <li className="hover">
+              <a href="mailto:elnivenandthealibi@gmail.com">
+                <EnvelopeOpen className="icons-contact" />
+                &nbsp; Book Us
+              </a>
             </li>
-            <li>
-              <Globe2 className="icons-contact" />
-              &nbsp;
-              <a href="http://www.elniven.com/contact ">&nbsp;Elniven.com</a>
+            <li className="hover">
+              <a href="http://www.elniven.com/contact ">
+                <Globe2 className="icons-contact" />
+                &nbsp; &nbsp;Elniven.com
+              </a>
             </li>
-            <li>
-              <MusicNote className="icons-contact" />
-              &nbsp;
+            <li className="hover">
               <a href="https://open.spotify.com/artist/6wlJOdjkVjweEwdb03zlLH?si=I0ClV098SGueQ6mDrG3zBg&nd=1 ">
-                &nbsp;El Niven On Spotify
+                <MusicNote className="icons-contact" />
+                &nbsp; &nbsp;El Niven On Spotify
               </a>
             </li>
-            <li>
-              <Facebook className="icons-contact" />
-              &nbsp;
+            <li className="hover">
               <a href="https://www.facebook.com/elnivenandthealibi/ ">
-                &nbsp;Elnivenandthealibi
+                <Facebook className="icons-contact" />
+                &nbsp; &nbsp;Elnivenandthealibi
               </a>
             </li>
-            <li>
-              <Instagram className="icons-contact" />
+            <li className="hover">
               <a href="https://www.instagram.com/el_niven/">
+                <Instagram className="icons-contact" />
                 &nbsp;&nbsp;El_niven
               </a>
             </li>

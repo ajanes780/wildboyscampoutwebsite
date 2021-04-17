@@ -25,22 +25,16 @@ export const EvilEmpire = () => {
         </h3>
         <div className="contact-info">
           <ul>
-            {/* <li>
-              <Phone className="icons-contact" />
-              <a href="tel:+17804402351"> &nbsp; (780) 440-2351</a>
-            </li> */}
-            {/* <li>
-              <EnvelopeOpenFill className="icons-contact" />
-              <a href="mailto:cullenm9@msn.com"> &nbsp; Email Me</a>
-            </li> */}
-            <li>
-              <Globe2 className="icons-contact" />
+            <li className="hover">
               &nbsp;
-              <a href="www.e-villeempire.com">&nbsp;E-villeempire.com</a>
+              <a href="www.e-villeempire.com">
+                <Globe2 className="icons-contact" />
+                &nbsp;E-villeempire.com
+              </a>
             </li>
-            <li>
-              <Instagram className="icons-contact" />
+            <li className="hover">
               <a href="https://www.instagram.com/tn_industries/">
+                <Instagram className="icons-contact" />
                 &nbsp;&nbsp;Evil.Empire
               </a>
             </li>

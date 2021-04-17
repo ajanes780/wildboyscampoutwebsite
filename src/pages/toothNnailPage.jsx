@@ -4,12 +4,7 @@ import logo from "../assets/TNA.png";
 // import logo1 from "../assets/LSC5.png";
 // import logo2 from "../assets/LSC4.png";
 
-import {
-  EnvelopeOpenFill,
-  Globe2,
-  Instagram,
-  Phone,
-} from "react-bootstrap-icons/";
+import { EnvelopeOpen, Globe2, Instagram, Phone } from "react-bootstrap-icons/";
 
 export const ToothNNail = () => {
   return (
@@ -27,22 +22,21 @@ export const ToothNNail = () => {
         </h3>
         <div className="contact-info">
           <ul>
-            {/* <li>
-              <Phone className="icons-contact" />
-              <a href="tel:+17804402351"> &nbsp; (780) 440-2351</a>
-            </li> */}
-            <li>
-              <EnvelopeOpenFill className="icons-contact" />
-              <a href="mailto:cullenm9@msn.com"> &nbsp; Email Me</a>
+            <li className="hover">
+              <a href="mailto:cullenm9@msn.com">
+                <EnvelopeOpen className="icons-contact" />
+                &nbsp; Email Me
+              </a>
             </li>
-            <li>
-              <Globe2 className="icons-contact" />
-              &nbsp;
-              <a href="www.toothnnailparts.com">&nbsp;Toothnnailparts.com</a>
+            <li className="hover">
+              <a href="www.toothnnailparts.com">
+                <Globe2 className="icons-contact" />
+                &nbsp; &nbsp;Toothnnailparts.com
+              </a>
             </li>
-            <li>
-              <Instagram className="icons-contact" />
+            <li className="hover">
               <a href="https://www.instagram.com/tn_industries/">
+                <Instagram className="icons-contact" />
                 &nbsp;&nbsp;Tn_industries
               </a>
             </li>

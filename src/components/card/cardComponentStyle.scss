@@ -12,11 +12,15 @@
 #store-card {
   box-shadow: 1px 15px 20px rgba(134, 129, 129, 0.7);
   border-radius: 15px;
+  transition: all 2s;
+
   .card-img-top {
     border-radius: 15px 15px 80px 80px;
   }
 }
-
+#store-card:hover {
+  transform: translateY(-10px);
+}
 .card-body {
   display: flex;
   flex-direction: column;

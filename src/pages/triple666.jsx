@@ -21,12 +21,12 @@ export const Triple666 = () => {
 
         <div className="contact-info">
           <ul>
-            <li>
+            <li className="hover">
               <EnvelopeOpenFill className="icons-contact" />
               <a href="mailto:tripsixkustoms@hotmail.com">&nbsp; Email Me</a>
             </li>
 
-            <li>
+            <li className="hover">
               <Globe2 className="icons-contact" />
               &nbsp;
               <a href="https://www.tripsixkustoms.com/">
@@ -34,7 +34,7 @@ export const Triple666 = () => {
               </a>
             </li>
 
-            <li>
+            <li className="hover">
               <Instagram className="icons-contact" />
               <a href="https://www.instagram.com/tripsixkustoms/">
                 &nbsp;&nbsp;Tripsixkustoms

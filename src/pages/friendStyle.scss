@@ -5,8 +5,9 @@
   align-items: center;
   text-align: center;
   width: 100%;
+
   margin: 30px 0px;
-  padding: 30px;
+  padding: 100px;
   background-color: lightgrey;
   border-radius: 20px;
 
@@ -25,11 +26,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    // margin: 10px;
     margin-top: 25px;
     border: 1px solid lightgray;
     background-color: #fff;
-    padding: 20px;
+    padding: 40px;
     border-radius: 20px;
     box-shadow: -5px 15px 20px rgba(134, 129, 129, 0.7);
   }
@@ -42,29 +42,25 @@
     border-bottom: 35px;
   }
   .contact-info {
-    // display: flex;
-    // justify-content: center;
     margin-top: 30px;
-    ul {
-      // border: 1px solid lightgray;
-      // background-color: #fff;
-      // padding: 20px 0px;
-      // margin-bottom: 15px;
-      // border-radius: 20px;
-      // box-shadow: -5px 15px 20px rgba(134, 129, 129, 0.7);
-    }
+    transition: all 0.2s;
+
     li:first-child {
       margin-left: 0;
     }
     li {
       display: inline-flex;
       align-items: baseline;
+      transition: all 2s;
       list-style-type: none;
-      margin: 0px 8px;
-      margin-left: 2em;
-      font-size: 24px;
+      margin: 0 2em;
+      font-size: 20px;
     }
   }
+}
+
+.contact-info {
+  transform: translateY(-10px);
 }
 
 a:link,
@@ -74,27 +70,36 @@ a:visited {
 }
 
 li:hover {
-  transform: translateY(-3px);
-  color: red;
 }
 
-li:active {
-  transform: translateY(-1px);
+a {
+  transition: all 0.3s;
 }
-
 a:hover {
-  transform: translateY(-153px);
-  color: red;
-  letter-spacing: 0.1em;
 }
 a:active {
-  transform: translateY(-1px);
+  // transform: translateY(-1px);
 }
 
+.hover {
+  transition: all 0.2s;
+}
+
+.hover:hover {
+  transform: translateY(-10px);
+  a {
+    color: red;
+  }
+}
 .image {
   width: 30%;
   margin: 2em;
   border-radius: 25px;
+  transition: all 0.4s;
+}
+.image:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.8);
 }
 
 iframe {
@@ -120,18 +125,13 @@ iframe {
     }
     .contact-info li {
       display: flex;
-      font-size: 22px;
+      font-size: 20px;
       justify-content: end;
       align-items: center;
       margin: 0 !important;
     }
     .icons-contact {
       margin-bottom: 0;
-    }
-    li {
-      display: flex;
-      // align-items: center;
-      // margin: 0 !important;
     }
   }
 
