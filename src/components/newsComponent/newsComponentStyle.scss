@@ -43,7 +43,7 @@
   transition: all 0.5s;
   width: 250px;
   height: 50px;
-  animation: downArrow 2s infinite;
+  animation: downArrow 2s infinite ease-out;
 }
 
 .down-arrow:hover {
@@ -67,7 +67,7 @@
 
   h1 {
     text-align: left;
-    animation: moveInRight 2s ease-out;
+    animation: moveInRight 2s ease-in-out;
     backface-visibility: hidden;
   }
 
@@ -112,7 +112,7 @@
       transition: all 0.5s;
       width: 250px;
       height: 50px;
-      animation: downArrow 2s infinite;
+      animation: downArrow 2s infinite ease-in-out;
     }
     .news-image-top {
       width: 100%;
