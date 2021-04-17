@@ -1,5 +1,6 @@
 import React from "react";
 import "./newsComponentStyle.scss";
+import { ArrowDown } from "react-bootstrap-icons";
 import wildboys from "../../assets/wildboyscamp.png";
 
 export const NewsComponent = () => (
@@ -15,6 +16,7 @@ export const NewsComponent = () => (
         mailing list so you never miss a thing !
       </span>
       <br />
+      <ArrowDown className="down-arrow" />
     </div>
 
     <img className="news-image-top" src={wildboys} alt="logo" />
