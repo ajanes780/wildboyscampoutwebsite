@@ -1,6 +1,6 @@
 import React from "react";
 import "./friendStyle.scss";
-import logo from "../assets/EE.png";
+import logo from "../assets/EE1.png";
 
 import {
   EnvelopeOpenFill,

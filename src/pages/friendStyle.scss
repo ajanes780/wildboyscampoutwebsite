@@ -98,7 +98,7 @@ a:active {
   }
 }
 .image {
-  width: 80%;
+  width: 75%;
   margin: 2em;
   border-radius: 25px;
   transition: all 0.4s;
@@ -106,6 +106,8 @@ a:active {
   animation-iteration-count: 1;
   transform-origin: bottom;
   animation-name: bounce;
+  border: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
 }
 .image:hover {
   transform: translateY(-10px);
@@ -154,6 +156,10 @@ iframe {
     h3 {
       font-size: 16px;
     }
+
+    a {
+      font-size: 15px;
+    }
   }
 
   .media-wrapper {
@@ -171,9 +177,9 @@ iframe {
     }
   }
 
-  // body {
-  //   padding: 10px;
-  // }
+  body {
+    padding: 25px;
+  }
 }
 
 @keyframes bounce {
