@@ -57,7 +57,7 @@
       list-style-type: none;
       margin: 0 2em;
       font-size: 20px;
-      border: 1px lightgrey solid;
+      border: 1px solid rgba(0, 0, 0, 0.3);
       border-radius: 15px;
       padding: 10px;
     }
@@ -92,7 +92,9 @@ a:active {
 }
 
 .hover:hover {
-  transform: translateY(-7px);
+  transform: translateY(7px);
+  box-shadow: -5px 15px 20px rgba(134, 129, 129, 0.2);
+
   a {
     color: red;
   }
@@ -135,11 +137,12 @@ iframe {
   }
   .wrapper-lsc {
     font-size: 14px;
-    padding: 30px;
+    padding: 10px;
     align-items: end;
     .image {
       width: 100%;
       border-radius: 25px;
+      border: 1px solid rgba(0, 0, 0, 0.4);
     }
     .contact-info li {
       display: flex;
