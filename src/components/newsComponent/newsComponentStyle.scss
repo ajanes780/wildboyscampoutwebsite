@@ -34,9 +34,12 @@
   0% {
     transform: translateY(0px);
   }
+  50% {
+    transform: translateY(35px);
+  }
 
   100% {
-    transform: translateY(25px);
+    transform: translateY(0px);
   }
 }
 .down-arrow {
@@ -44,7 +47,7 @@
   width: 250px;
   height: 50px;
 
-  animation: downArrow 2s infinite ease-out;
+  animation: downArrow 2s infinite ease-in-out;
 }
 
 .down-arrow:hover {

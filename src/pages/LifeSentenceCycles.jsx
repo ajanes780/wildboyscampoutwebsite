@@ -38,13 +38,13 @@ export const LifeSentenceCycles = () => {
             <li className="hover">
               <a href="http://Lifesentencecycles.com ">
                 <Globe2 className="icons-contact" />
-                &nbsp; LifeSentenceCycles
+                LifeSentenceCycles
               </a>
             </li>
             <li className="hover">
               <a href="https://www.instagram.com/lifesentencecycles/">
                 <Instagram className="icons-contact" />
-                &nbsp;LifeSentenceCycles
+                LifeSentenceCycles
               </a>
             </li>
           </ul>
