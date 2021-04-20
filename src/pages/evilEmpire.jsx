@@ -26,16 +26,15 @@ export const EvilEmpire = () => {
         <div className="contact-info">
           <ul>
             <li className="hover">
-              &nbsp;
-              <a href="www.e-villeempire.com">
+              <a href="https://e-villeempire.com/">
                 <Globe2 className="icons-contact" />
                 &nbsp;E-villeempire.com
               </a>
             </li>
             <li className="hover">
-              <a href="https://www.instagram.com/tn_industries/">
+              <a href="https://www.instagram.com/eville.empire/?hl=en">
                 <Instagram className="icons-contact" />
-                &nbsp;&nbsp;Evil.Empire
+                &nbsp;Evil.Empire
               </a>
             </li>
           </ul>

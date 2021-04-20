@@ -1,7 +1,7 @@
 import logo from "../../assets/LSC2.png";
 import logo2 from "../../assets/band.png";
 import logo3 from "../../assets/TNA.png";
-import logo4 from "../../assets/666.png";
+import logo4 from "../../assets/666Tiny.jpg";
 import logo5 from "../../assets/EE.png";
 // LSC2.png
 export const friends = [

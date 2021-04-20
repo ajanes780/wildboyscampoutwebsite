@@ -1,5 +1,5 @@
 import react from "react";
-import logo from "../assets/666.png";
+import logo from "../assets/666Tiny.jpg";
 import {
   EnvelopeOpenFill,
   Globe2,
@@ -13,30 +13,28 @@ export const Triple666 = () => {
       <div className="contact">
         <img src={logo} className="image" alt="" />
         <h3>
-          Built for the culture, tested in the climate. Canadian made
-          <br />
-          Aftermarket Motorcycle Parts. Built for the Culture, Tested in the
-          Climate.
+          Custom Motorcycle Paint & builds, from mild to wild we do it all
         </h3>
 
         <div className="contact-info">
           <ul>
             <li className="hover">
-              <EnvelopeOpenFill className="icons-contact" />
-              <a href="mailto:tripsixkustoms@hotmail.com">&nbsp; Email Me</a>
+              <a href="mailto:tripsixkustoms@hotmail.com">
+                <EnvelopeOpenFill className="icons-contact" />
+                &nbsp; Email Me
+              </a>
             </li>
 
             <li className="hover">
-              <Globe2 className="icons-contact" />
-              &nbsp;
               <a href="https://www.tripsixkustoms.com/">
+                <Globe2 className="icons-contact" />
                 &nbsp;Tripsixkustoms.com
               </a>
             </li>
 
             <li className="hover">
-              <Instagram className="icons-contact" />
               <a href="https://www.instagram.com/tripsixkustoms/">
+                <Instagram className="icons-contact" />
                 &nbsp;&nbsp;Tripsixkustoms
               </a>
             </li>

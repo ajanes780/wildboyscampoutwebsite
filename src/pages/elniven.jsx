@@ -74,7 +74,7 @@ export const ElNiven = () => {
             <li className="hover">
               <a href="https://open.spotify.com/artist/6wlJOdjkVjweEwdb03zlLH?si=I0ClV098SGueQ6mDrG3zBg&nd=1 ">
                 <MusicNote className="icons-contact" />
-                &nbsp; &nbsp;El Niven On Spotify
+                &nbsp; &nbsp;Spotify
               </a>
             </li>
             <li className="hover">
