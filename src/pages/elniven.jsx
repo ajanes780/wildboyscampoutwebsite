@@ -1,8 +1,5 @@
 import React from "react";
 import "./friendStyle.scss";
-import logo from "../assets/LSC2.png";
-import logo1 from "../assets/LSC5.png";
-import logo2 from "../assets/LSC4.png";
 
 import {
   EnvelopeOpen,
@@ -10,7 +7,6 @@ import {
   Globe2,
   Instagram,
   MusicNote,
-  Phone,
 } from "react-bootstrap-icons/";
 
 export const ElNiven = () => {
@@ -19,8 +15,6 @@ export const ElNiven = () => {
       <div className="contact">
         <div className="media-wrapper">
           <iframe
-            // width="560"
-            // height="315"
             src="https://www.youtube.com/embed/_VFEa3AUa_E"
             title="YouTube video player"
             frameborder="0"
@@ -29,8 +23,6 @@ export const ElNiven = () => {
           ></iframe>
 
           <iframe
-            // width="560"
-            // height="315"
             src="https://www.youtube.com/embed/IxGFIz9WF30"
             title="YouTube video player"
             frameborder="0"

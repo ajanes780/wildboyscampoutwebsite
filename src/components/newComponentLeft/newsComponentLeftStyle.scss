@@ -1,5 +1,4 @@
 .news-component-left {
-  // height: 50vh;
   display: flex;
   justify-content: space-between;
   margin: 55px 0px;
@@ -14,7 +13,7 @@
   }
   span {
     text-align: right;
-    line-height: 2em;
+    letter-spacing: 0.2em;
   }
 }
 
@@ -30,13 +29,11 @@
     flex-direction: column;
     flex-wrap: wrap-reverse;
     justify-content: center;
-    // justify-content: space-between;
     height: 95%;
     margin: 5px 0px;
 
     .write-up-left {
       display: flex;
-      // height: 400px;
       width: 100%;
       margin-top: 25px;
 

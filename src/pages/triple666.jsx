@@ -1,11 +1,5 @@
-import react from "react";
 import logo from "../assets/666Tiny.jpg";
-import {
-  EnvelopeOpenFill,
-  Globe2,
-  Instagram,
-  Phone,
-} from "react-bootstrap-icons/";
+import { EnvelopeOpenFill, Globe2, Instagram } from "react-bootstrap-icons/";
 
 export const Triple666 = () => {
   return (

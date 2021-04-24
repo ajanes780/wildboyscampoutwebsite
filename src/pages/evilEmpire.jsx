@@ -2,19 +2,12 @@ import React from "react";
 import "./friendStyle.scss";
 import logo from "../assets/EE1.png";
 
-import {
-  EnvelopeOpenFill,
-  Globe2,
-  Instagram,
-  Phone,
-} from "react-bootstrap-icons/";
+import { Globe2, Instagram } from "react-bootstrap-icons/";
 
 export const EvilEmpire = () => {
   return (
     <div className="wrapper-lsc">
-      {/* <img src={logo2} className="image" alt="" /> */}
       <div className="contact">
-        {/* <img src={logo1} className="image" alt="" /> */}
         <img src={logo} className="image" alt="" />
 
         <h3>

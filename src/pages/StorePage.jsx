@@ -1,6 +1,4 @@
 import React from "react";
-import { HeroComponent } from "../components/hero/HeroComponent";
-import { Button, Card } from "react-bootstrap";
 import logo from "../assets/logo.jpeg";
 import "./storePageStyle.scss";
 import { CardComponent } from "../components/card/CardComponent";

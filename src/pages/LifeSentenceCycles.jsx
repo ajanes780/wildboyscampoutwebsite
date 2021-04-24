@@ -1,17 +1,13 @@
 import React from "react";
 import "./friendStyle.scss";
 import logo from "../assets/LSC2.png";
-import logo1 from "../assets/LSC5.png";
-import logo2 from "../assets/LSC4.png";
 
 import { EnvelopeOpen, Globe2, Instagram, Phone } from "react-bootstrap-icons/";
 
 export const LifeSentenceCycles = () => {
   return (
     <div className="wrapper-lsc">
-      {/* <img src={logo2} className="image" alt="" /> */}
       <div className="contact">
-        {/* <img src={logo1} className="image" alt="" /> */}
         <img src={logo} className="image" alt="" />
         <h3>
           &nbsp; Edmonton Alberta fully certified Harley Davidson repair,

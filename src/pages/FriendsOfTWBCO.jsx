@@ -1,12 +1,9 @@
 import React from "react";
-// import { Button } from "react-bootstrap";
 import { CardComponent } from "../components/card/CardComponent";
-import { useHistory, withRouter } from "react-router-dom";
 
 import "./friendsOfTWBCOStyle.scss";
 import { friends } from "./data/data";
 
-// const data = friends;
 export const FriendsOfTWBCO = () => {
   return (
     <>
@@ -20,7 +17,6 @@ export const FriendsOfTWBCO = () => {
             title={title}
             bio={message}
             linkUrl={linkUrl}
-            // onClick={linkUrl}
           />
         ))}
       </div>

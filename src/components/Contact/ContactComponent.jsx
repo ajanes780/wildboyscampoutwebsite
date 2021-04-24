@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Form, Button } from "react-bootstrap";
-import { HeroComponent } from "../hero/HeroComponent";
 import { ModalComponent } from "../modal/ModalComponent";
 import { db } from "../../firebase/firebaseUtiils.";
 import "./contactComponentStyle.scss";
@@ -14,7 +13,6 @@ export const ContactComponent = () => {
   });
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
 
   const handleSubmit = (e) => {
     e.preventDefault();
