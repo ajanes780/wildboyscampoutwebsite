@@ -50,11 +50,11 @@ export const ElNiven = () => {
         </h3>
 
         <div className="contact-info">
-          <ul>
+          <ul class="contact-items-list">
             <li className="hover">
               <a href="mailto:elnivenandthealibi@gmail.com">
                 <EnvelopeOpen className="icons-contact" />
-                &nbsp; Book Us
+                &nbsp; Email
               </a>
             </li>
             <li className="hover">

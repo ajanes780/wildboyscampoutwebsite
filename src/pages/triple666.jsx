@@ -11,7 +11,7 @@ export const Triple666 = () => {
         </h3>
 
         <div className="contact-info">
-          <ul>
+          <ul class="contact-items-list">
             <li className="hover">
               <a href="mailto:tripsixkustoms@hotmail.com">
                 <EnvelopeOpenFill className="icons-contact" />

@@ -17,7 +17,7 @@ export const EvilEmpire = () => {
           NOT JUST A NAME BUT A LIFESTYLE......
         </h3>
         <div className="contact-info">
-          <ul>
+          <ul class="contact-items-list">
             <li className="hover">
               <a href="https://e-villeempire.com/">
                 <Globe2 className="icons-contact" />

@@ -125,12 +125,12 @@ iframe {
 
 .icons-contact {
   margin-bottom: 5px;
-  // margin-right: 10px;
 }
 
 @media (max-width: 736px) {
   ul {
     display: flex;
+    // justify-content: baseline;
     flex-direction: column;
     margin: 5px;
     padding: 0;
@@ -149,8 +149,6 @@ iframe {
       flex-direction: column;
       font-size: 20px;
       box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
-      // justify-content: end;
-      // align-items: center;
       margin: 5px 0 !important;
     }
     .icons-contact {
@@ -167,7 +165,6 @@ iframe {
 
   .icons-contact {
     margin-bottom: 0px;
-    // margin-right: 10px;
   }
   .media-wrapper {
     display: flex;
@@ -186,6 +183,21 @@ iframe {
 
   body {
     padding: 25px;
+  }
+}
+
+// landscape iphone
+@media (max-height: 450px) {
+  .contact-items-list {
+    display: flex;
+    flex-direction: row;
+  }
+
+  li.hover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 10px;
   }
 }
 

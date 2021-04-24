@@ -17,7 +17,7 @@ export const ToothNNail = () => {
           Climate.
         </h3>
         <div className="contact-info">
-          <ul>
+          <ul class="contact-items-list">
             <li className="hover">
               <a href="mailto:cullenm9@msn.com">
                 <EnvelopeOpen className="icons-contact" />

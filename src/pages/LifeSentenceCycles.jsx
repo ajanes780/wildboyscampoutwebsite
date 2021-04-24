@@ -18,19 +18,21 @@ export const LifeSentenceCycles = () => {
         </h3>
 
         <div className="contact-info">
-          <ul>
-            <li className="hover">
-              <a href="tel:+17804402351">
-                <Phone className="icons-contact" />
-                &nbsp; (780) 440-2351
-              </a>
-            </li>
+          <ul class="contact-items-list">
             <li className="hover">
               <a href="mailto:lifesentencecycle@gmail.com">
                 <EnvelopeOpen className="icons-contact" />
-                &nbsp; Email Me
+                &nbsp; Email
               </a>
             </li>
+
+            <li className="hover">
+              <a href="tel:+17804402351">
+                <Phone className="icons-contact" />
+                &nbsp; 780-440- 2351
+              </a>
+            </li>
+
             <li className="hover">
               <a href="http://Lifesentencecycles.com ">
                 <Globe2 className="icons-contact" />
