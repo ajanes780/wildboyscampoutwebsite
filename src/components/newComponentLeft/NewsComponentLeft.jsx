@@ -15,12 +15,14 @@ export const NewsComponentLeft = () => (
         than 100 people attended. When this began we never had the intentions to
         make it an annual event but because of how memorable the camp-outs
         turned out, we decided to make this a summer event in hopes of bringing
-        even more of the motorcycle community together. Our philosophy is to
-        keep things simple and keep things old school - good laughs, good times
-        and good people. No fancy shit! Just pitch a tent, grab a beer and enjoy
-        your time with some cool, like-minded people. We are dedicated to
-        supporting our community and bringing everyone together through these
-        events.
+        even more of the motorcycle community together.
+        <br />
+        <br />
+        Our philosophy is to keep things simple and keep things old school -
+        good laughs, good times and good people. No fancy shit! Just pitch a
+        tent, grab a beer and enjoy your time with some cool, like-minded
+        people. We are dedicated to supporting our community and bringing
+        everyone together through these events.
         <br />
         <br />
         We host one big camp-out every summer for two nights and I am sure you
