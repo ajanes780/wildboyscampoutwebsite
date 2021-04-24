@@ -47,7 +47,6 @@
   width: 250px;
   height: 50px;
   display: none;
-
   animation: downArrow 2s infinite ease-in-out;
 }
 
@@ -121,6 +120,7 @@
       width: 250px;
       height: 50px;
       animation: downArrow 2s infinite ease-in-out;
+      display: block;
     }
     .news-image-top {
       width: 100%;
