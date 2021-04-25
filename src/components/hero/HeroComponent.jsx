@@ -1,6 +1,5 @@
 import React from "react";
 import logo from "../../assets/logo.jpeg";
-
 import "./heroComponentStyle.scss";
 
 export const HeroComponent = () => (
