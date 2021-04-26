@@ -8,8 +8,8 @@ export const ContestPage = () => {
     <>
       <div className="contest-container">
         <h3>
-          One Lucky Winner <br /> Will Get an all inclusive Wrist band and
-          Invitation to the party
+          One Lucky Winner <br /> Will receive a wristband for free entry into
+          the camp-out & a sticker pack
         </h3>
       </div>
       <ContestComponent />
