@@ -11,10 +11,9 @@ export const ToothNNail = () => {
         <img src={logo} className="image" alt="" />
 
         <h3>
-          Built for the culture, tested in the climate. Canadian made
+          Built for the culture, tested in the climate
           <br />
-          Aftermarket Motorcycle Parts. Built for the Culture, Tested in the
-          Climate.
+          Canadian made Aftermarket Motorcycle Parts
         </h3>
         <div className="contact-info">
           <ul class="contact-items-list">
@@ -25,7 +24,7 @@ export const ToothNNail = () => {
               </a>
             </li>
             <li className="hover">
-              <a href="www.toothnnailparts.com">
+              <a href="http://www.toothnnailparts.com">
                 <Globe2 className="icons-contact" />
                 &nbsp; &nbsp;Toothnnailparts.com
               </a>
