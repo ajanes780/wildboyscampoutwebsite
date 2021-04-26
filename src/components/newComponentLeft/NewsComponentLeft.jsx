@@ -36,16 +36,23 @@ export const NewsComponentLeft = () => (
         <br />
         <br />
         So please subscribe and stay up to date with our newsletter and on our
-        social media platforms. In addition to the main event each year, we host
-        two shotgun camp-outs as well. These are a spur of moment, one night
-        spontaneous event where we meet up at a location and ride out to a spot
-        to kick it for a night (don’t worry, we will make sure you know when!).
+        social media platforms.
+        <br />
+        <br />
+        In addition to the main event each year, we host two shotgun camp-outs
+        as well. These are a spur of moment, one night spontaneous event where
+        we meet up at a location and ride out to a spot to kick it for a night
+        (don’t worry, we will make sure you know when!).
+        <br />
+        <br />
         Our goal is to keep The Wild Boy's Camp Outs true to the old school vibe
         with being focused mostly on riding and a real down-to-earth camp-out
         experience. No pretentiousness, nothing fancy, grab your friends, as
         everyone is invited and included. Come on out and set up your spot and
         get to know people, make new friends and have some laughs. Get away from
         the city, get some wind in your face and enjoy the thing we all love.
+        <br />
+        <br />
         The Wild Boys Camp Out welcomes anyone and everyone we just ask that you
         respect one another, the environment and your surroundings.
         <br /> <br />
