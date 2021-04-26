@@ -12,6 +12,7 @@ import { ElNiven } from "./pages/elniven";
 import { ToothNNail } from "./pages/toothNnailPage";
 import { EvilEmpire } from "./pages/evilEmpire";
 import { Triple666 } from "./pages/triple666";
+import { ContestPage } from "./pages/ContestPage";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path="/toothnnail" component={ToothNNail} />
           <Route path="/666" component={Triple666} />
           <Route path="/evil" component={EvilEmpire} />
+          <Route path="/contest" component={ContestPage} />
         </Switch>
         <FooterComponent />
       </Router>

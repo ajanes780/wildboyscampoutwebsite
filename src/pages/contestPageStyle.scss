@@ -1,0 +1,14 @@
+.contest-container {
+  display: flex;
+  flex-direction: column;
+  height: 75vh;
+  align-items: center;
+  text-align: center;
+  justify-content: flex-end;
+  background-image: Url("../assets/contest.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10px;
+  color: white;
+}
