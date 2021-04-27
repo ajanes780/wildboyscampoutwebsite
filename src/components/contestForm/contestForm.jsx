@@ -62,7 +62,8 @@ export const ContestComponent = (e) => {
           </Button>
 
           <Form.Text className="text-muted">
-            We will never share your email with anyone else
+            *Contest runs till may 15 2021 <br /> We will never share your email
+            with anyone else
           </Form.Text>
         </Form.Group>
       </Form>

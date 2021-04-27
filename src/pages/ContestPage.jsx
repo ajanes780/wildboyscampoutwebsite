@@ -11,7 +11,6 @@ export const ContestPage = () => {
           One Lucky Winner <br /> Will receive a wristband for free entry into
           the camp-out & a sticker pack
         </h3>
-        <h6> *Contest runs till may 15 2021</h6>
       </div>
       <ContestComponent />
     </>

@@ -7,6 +7,7 @@ export const NewsComponentLeft = () => (
 
     <div className="write-up-left">
       <h1 className="about-us"> What are the Wild Boys Camp Outs</h1>
+      <hr class="hr-line" />
       <span>
         <br />
         The Wild Boys Camp-Out was established in 2020 by a bunch of blue
@@ -60,6 +61,7 @@ export const NewsComponentLeft = () => (
           Stay safe, stay wild. <br />
           ~Wild Boys Camp Out
         </em>
+        <hr class="hr-line" />
       </span>
     </div>
   </div>
