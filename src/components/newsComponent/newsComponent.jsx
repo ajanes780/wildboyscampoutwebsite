@@ -7,6 +7,7 @@ export const NewsComponent = () => (
   <div className="news-component-top">
     <div className="write-up">
       <h1> Latest News </h1>
+      <hr class="hr-line" />
       <br></br>
       <span>
         Wild Boys July 2, 2021 is on the go! Location is set, the logistics are
