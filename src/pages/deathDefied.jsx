@@ -1,5 +1,10 @@
 import logo from "../assets/dd.png";
-import { EnvelopeOpenFill, Globe2, Instagram } from "react-bootstrap-icons/";
+import {
+  EnvelopeOpenFill,
+  Globe2,
+  Instagram,
+  Facebook,
+} from "react-bootstrap-icons/";
 
 export const Death = () => {
   return (
@@ -25,6 +30,12 @@ export const Death = () => {
               <a href="https://deathdefied.ca/">
                 <Globe2 className="icons-contact" />
                 &nbsp;Deathdefied.ca
+              </a>
+            </li>
+            <li className="hover">
+              <a href="https://www.facebook.com/www.deathdefied.ca/ ">
+                <Facebook className="icons-contact" />
+                &nbsp; &nbsp; Death Defied
               </a>
             </li>
 

@@ -20,7 +20,7 @@ export const ToothNNail = () => {
             <li className="hover">
               <a href="mailto:cullenm9@msn.com">
                 <EnvelopeOpen className="icons-contact" />
-                &nbsp; Email Me
+                &nbsp; Email
               </a>
             </li>
             <li className="hover">
