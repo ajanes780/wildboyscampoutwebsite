@@ -13,7 +13,7 @@ export const ToothNNail = () => {
         <h3>
           Built for the culture, tested in the climate
           <br />
-          Canadian made Aftermarket Motorcycle Parts
+          Canadian made aftermarket motorcycle parts
         </h3>
         <div className="contact-info">
           <ul class="contact-items-list">
