@@ -80,6 +80,8 @@ li:hover {
 
 a {
   transition: all 0.3s;
+  display: flex;
+  align-items: center;
 }
 a:hover {
 }
@@ -89,11 +91,12 @@ a:active {
 
 .hover {
   transition: all 0.2s;
+  box-shadow: -5px 15px 20px rgba(134, 129, 129, 0.2);
 }
 
 .hover:hover {
-  transform: translateY(7px);
-  box-shadow: -5px 15px 20px rgba(134, 129, 129, 0.2);
+  transform: translateY(-7px);
+  // box-shadow: -5px 15px 20px rgba(134, 129, 129, 0.2);
 
   a {
     color: red;
