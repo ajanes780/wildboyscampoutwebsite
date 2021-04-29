@@ -48,7 +48,7 @@ export const friends = [
     id: 5,
   },
   {
-    message: `United By Lifestyle #DeathDefied & #CheatTheReaper`,
+    message: `United By Lifestyle`,
     title: `Death Defied`,
     buttonMsg: `Read More`,
     linkUrl: "/death",
