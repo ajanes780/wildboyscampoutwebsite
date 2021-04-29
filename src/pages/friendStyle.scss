@@ -60,26 +60,24 @@
 
       border-radius: 15px;
       padding: 10px;
-      background: rgb(0, 0, 0);
+
+      background: rgb(255, 255, 255);
       background: -moz-linear-gradient(
         180deg,
-        rgba(0, 0, 0, 1) 0%,
-        rgba(253, 29, 29, 0) 0%,
+        rgba(255, 255, 255, 1) 0%,
         rgba(177, 176, 172, 0.5942752100840336) 100%
       );
       background: -webkit-linear-gradient(
         180deg,
-        rgba(0, 0, 0, 1) 0%,
-        rgba(253, 29, 29, 0) 0%,
+        rgba(255, 255, 255, 1) 0%,
         rgba(177, 176, 172, 0.5942752100840336) 100%
       );
       background: linear-gradient(
         180deg,
-        rgba(0, 0, 0, 1) 0%,
-        rgba(253, 29, 29, 0) 0%,
+        rgba(255, 255, 255, 1) 0%,
         rgba(177, 176, 172, 0.5942752100840336) 100%
       );
-      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#b1b0ac",GradientType=1);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#b1b0ac",GradientType=1);
     }
   }
 
