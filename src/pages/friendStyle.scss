@@ -162,6 +162,11 @@ iframe {
     }
 
     a {
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
       font-size: 15px;
     }
   }
@@ -200,6 +205,11 @@ iframe {
       margin: 0px 5px;
       // padding: 0px 10px;
     }
+  }
+
+  a {
+    display: flex;
+    flex-direction: column !important;
   }
 
   li.hover {
