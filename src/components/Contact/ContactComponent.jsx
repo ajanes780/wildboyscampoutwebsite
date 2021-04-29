@@ -91,9 +91,10 @@ export const ContactComponent = () => {
               label="message"
               onChange={handleChange}
               rows="5"
+              minLength="10"
+              required
             />
           </Form.Group>
-
           <Button id="mybtn" variant="warning" type="submit">
             Submit
           </Button>

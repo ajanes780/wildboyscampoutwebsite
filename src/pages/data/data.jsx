@@ -3,6 +3,7 @@ import logo2 from "../../assets/band.png";
 import logo3 from "../../assets/TNA.png";
 import logo4 from "../../assets/666Tiny.jpg";
 import logo5 from "../../assets/EE1.png";
+import logo6 from "../../assets/dd.png";
 // LSC2.png
 export const friends = [
   {
@@ -45,5 +46,13 @@ export const friends = [
     linkUrl: "/evil",
     image: logo5,
     id: 5,
+  },
+  {
+    message: `United By Lifestyle #DeathDefied & #CheatTheReaper`,
+    title: `Death Defied`,
+    buttonMsg: `Read More`,
+    linkUrl: "/death",
+    image: logo6,
+    id: 1,
   },
 ];
