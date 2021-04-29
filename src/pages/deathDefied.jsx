@@ -24,7 +24,7 @@ export const Death = () => {
             <li className="hover">
               <a href="https://deathdefied.ca/">
                 <Globe2 className="icons-contact" />
-                &nbsp;deathdefied.ca
+                &nbsp;Deathdefied.ca
               </a>
             </li>
 
