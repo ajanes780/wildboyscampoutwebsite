@@ -59,25 +59,8 @@
       font-size: 20px;
 
       border-radius: 15px;
-      padding: 10px;
-
-      background: rgb(255, 255, 255);
-      background: -moz-linear-gradient(
-        180deg,
-        rgba(255, 255, 255, 1) 18%,
-        rgba(177, 176, 172, 0.5942752100840336) 100%
-      );
-      background: -webkit-linear-gradient(
-        180deg,
-        rgba(255, 255, 255, 1) 18%,
-        rgba(177, 176, 172, 0.5942752100840336) 100%
-      );
-      background: linear-gradient(
-        180deg,
-        rgba(255, 255, 255, 1) 18%,
-        rgba(177, 176, 172, 0.5942752100840336) 100%
-      );
-      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#b1b0ac",GradientType=1);
+      padding: 15px;
+      background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
     }
   }
 
