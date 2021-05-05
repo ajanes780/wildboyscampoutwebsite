@@ -14,6 +14,7 @@ import { EvilEmpire } from "./pages/evilEmpire";
 import { Triple666 } from "./pages/triple666";
 import { ContestPage } from "./pages/ContestPage";
 import { Death } from "./pages/deathDefied";
+import { videoPage } from "./pages/videoPage";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           <Route path="/evil" component={EvilEmpire} />
           <Route path="/contest" component={ContestPage} />
           <Route path="/death" component={Death} />
+          <Route path="/video" component={videoPage} />
         </Switch>
         <FooterComponent />
       </Router>
