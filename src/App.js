@@ -27,16 +27,16 @@ function App() {
           <Route exact path='/' component={HomePage} />
           <Route path='/contactme' component={ContactComponent} />
           <Route path='/store' component={StorePage} />
-          <Route path='/friendsofTWBCO' component={FriendsOfTWBCO} />
-          <Route path='/lifesentencecycles' component={LifeSentenceCycles} />
-          <Route path='/elniven' component={ElNiven} />
-          <Route path='/toothnnail' component={ToothNNail} />
-          <Route path='/666' component={Triple666} />
-          <Route path='/evil' component={EvilEmpire} />
-          <Route path='/contest' component={ContestPage} />
-          <Route path='/death' component={Death} />
-          <Route path='/video' component={videoPage} />
-          <Route path='/results' component={contestWinners} />
+          {/* <Route path='/friendsofTWBCO' component={FriendsOfTWBCO} /> */}
+          {/* <Route path='/lifesentencecycles' component={LifeSentenceCycles} /> */}
+          {/* <Route path='/elniven' component={ElNiven} /> */}
+          {/* <Route path='/toothnnail' component={ToothNNail} /> */}
+          {/* <Route path='/666' component={Triple666} /> */}
+          {/* <Route path='/evil' component={EvilEmpire} /> */}
+          {/* <Route path='/contest' component={ContestPage} /> */}
+          {/* <Route path='/death' component={Death} /> */}
+          {/* <Route path='/video' component={videoPage} /> */}
+          {/* <Route path='/results' component={contestWinners} /> */}
         </Switch>
         <FooterComponent />
       </Router>
