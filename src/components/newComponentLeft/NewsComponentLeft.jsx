@@ -1,5 +1,6 @@
 import React from 'react';
 import './newsComponentLeftStyle.scss';
+import Button from 'react-bootstrap/Button';
 import fistBump from '../../assets/wildboys1.jpg';
 export const NewsComponentLeft = () => (
   <div className='news-component-left'>
@@ -27,6 +28,15 @@ export const NewsComponentLeft = () => (
           ~Wild Boys Camp Out
         </em>
         <hr class='hr-line' />
+        <Button
+          href='https://www.instagram.com/thewildboyscampout/?hl=en'
+          id='mybtn'
+          target='_blank'
+          variant='warning'
+        >
+          {' '}
+          Check Out Our Instagram
+        </Button>
       </span>
     </div>
   </div>
