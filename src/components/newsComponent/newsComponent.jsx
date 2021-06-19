@@ -1,7 +1,7 @@
 import React from 'react';
 import './newsComponentStyle.scss';
 import { ArrowDown } from 'react-bootstrap-icons';
-import wildboys from '../../assets/wildboys2.jpg';
+import wildboys from '../../assets/twbc-min.jpeg';
 
 export const NewsComponent = () => (
   <div className='news-component-top'>
