@@ -15,20 +15,21 @@
   transition: all 2s;
 
   .card-img-top {
-    border-radius: 15px 15px 50px 50px;
+    border-radius: 15px 15px 0px 0px;
     height: 50%;
   }
 }
 #store-card:hover {
-  transform: translateY(-10px);
+  transform: translateY(10px);
 }
 .card-body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
 }
 #store-card:hover {
-  box-shadow: 1px 5px 10px rgba(134, 129, 129, 0.9);
+  box-shadow: none;
 }
 
 a:link,
