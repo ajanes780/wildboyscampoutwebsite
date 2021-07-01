@@ -20,7 +20,7 @@ export const HeaderComponent = () => {
       bg='dark'
       variant='dark'
       sticky='top'
-      style={{ marginBottom: '10px' }}
+      style={{ marginBottom: '10px', width: '100%' }}
     >
       <Navbar.Brand as={Link} to='./'>
         The Wild Boys Campout{' '}

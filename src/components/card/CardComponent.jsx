@@ -15,7 +15,11 @@ export const CardComponent = ({
   const history = useHistory();
   return (
     <Card id='store-card'>
-      <Card.Img variant='top' src={image} Style={{ Height: '100px' }} />
+      <Card.Img
+        variant='top'
+        src={image}
+        Style={{ Height: '100px', maxWidth: '500px' }}
+      />
       <Card.Body>
         <Card.Title style={{ fontWeight: 'bold' }}>{title}</Card.Title>
         <Card.Text>{bio}</Card.Text>
