@@ -22,10 +22,8 @@ export const NewsComponent = () => {
           <hr class='hr-line' />
           <br></br>
           <span>
-            Wild Boys July 2, 2021 is on the go! Location is set, the logistics
-            are completed and the bands are booked. Stay up to date on our
-            social media platforms and subscribe to the mailing list so you
-            never miss a thing !
+            Wild Boys July 2, 2021 was a success, stay tuned for the season
+            ender
           </span>
           <br />
           <ArrowDown className='down-arrow' />
