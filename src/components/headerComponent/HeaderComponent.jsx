@@ -36,7 +36,9 @@ export const HeaderComponent = () => {
           <ul>
             <li>
               <Link to='/'>
-                <h3 onClick={handleClick}>Home</h3>
+                <h3 style={{ color: 'black' }} onClick={handleClick}>
+                  Home
+                </h3>
               </Link>
             </li>
             {/* <li>
@@ -46,7 +48,9 @@ export const HeaderComponent = () => {
             </li> */}
             <li>
               <Link to='/store'>
-                <h3 onClick={handleClick}>Store</h3>
+                <h3 style={{ color: 'black' }} onClick={handleClick}>
+                  Store
+                </h3>
               </Link>
             </li>
             {/* <li>
@@ -56,7 +60,9 @@ export const HeaderComponent = () => {
             </li> */}
             <li>
               <Link to='/contactme'>
-                <h3 onClick={handleClick}>Contact</h3>
+                <h3 style={{ color: 'black' }} onClick={handleClick}>
+                  Contact
+                </h3>
               </Link>
             </li>
           </ul>

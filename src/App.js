@@ -1,4 +1,3 @@
-import './App.scss';
 import { FooterComponent } from './components/footer/FooterComponent';
 import { HeaderComponent } from './components/headerComponent/HeaderComponent';
 import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
