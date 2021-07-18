@@ -42,9 +42,9 @@ export const NewsComponent = () => {
     //   />
     // </>
     <>
-      <h1 style={{ color: 'black', margin: '1rem' }}>
+      <h1 style={{ color: 'black', margin: '1rem', fontStyle: 'italic' }}>
         {' '}
-        Season Ender Coming Soon{' '}
+        SEASON ENDER COMING SOON{' '}
       </h1>
       <Row className='m-3 '>
         <Col md={3}>
