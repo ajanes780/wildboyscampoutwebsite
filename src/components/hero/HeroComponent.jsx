@@ -24,7 +24,7 @@ import './heroComponentStyle.scss';
 export const HeroComponent = () => (
   <Carousel interval={2000}>
     <Carousel.Item>
-      <Image src={logo} alt='logo' fluid />>
+      <Image src={logo} alt='logo' fluid />
     </Carousel.Item>
     <Carousel.Item>
       <Image src={wild1} alt='logo' fluid />
