@@ -47,16 +47,16 @@ export const NewsComponent = () => {
         SEASON ENDER COMING SOON{' '}
       </h1>
       <Row className='m-3 '>
-        <Col md={3}>
+        <Col className='my-3' md={3}>
           <Image src={poster} fluid />
         </Col>
-        <Col md={3}>
+        <Col className='my-3' md={3}>
           <Image src={poster} fluid />
         </Col>
-        <Col md={3}>
+        <Col className='my-3' md={3}>
           <Image src={poster} fluid />
         </Col>
-        <Col md={3}>
+        <Col className='my-3' md={3}>
           <Image src={poster} fluid />
         </Col>
       </Row>
